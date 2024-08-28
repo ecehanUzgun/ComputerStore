@@ -1,4 +1,6 @@
-﻿namespace DAL.Abstract
+﻿using DAL.Entities;
+
+namespace DAL.Abstract
 {
     //Base Class
     public abstract class Product
@@ -9,5 +11,6 @@
         public decimal UnitPrice { get; set; }
         public int Quantity { get; set; }
         public decimal KdvRate { get; set; }
+        public List<Computer> Computers { get; set; }
     }
 }

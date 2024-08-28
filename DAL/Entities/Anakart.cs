@@ -4,6 +4,6 @@ namespace DAL.Entities
 {
     public class Anakart:Product
     {
-        
+
     }
 }

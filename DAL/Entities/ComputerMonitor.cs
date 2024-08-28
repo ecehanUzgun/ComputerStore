@@ -2,7 +2,7 @@
 
 namespace DAL.Entities
 {
-    public class Monitor:Product
+    public class ComputerMonitor:Product
     {
         public int Size { get; set; }
     }

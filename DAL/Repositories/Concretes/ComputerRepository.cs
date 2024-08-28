@@ -17,7 +17,10 @@ namespace DAL.Repositories.Concretes
 
         public override Computer GetComputer(int computerId)
         {
-            throw new NotImplementedException();
+            return db.Computers.Find(computerId);
+            /*
+            Error	CS0122	'ComputerStoreContext.Computers' is inaccessible due to its protection level
+            */
         }
 
         public override string SaveComputerDatabase(Computer computer)

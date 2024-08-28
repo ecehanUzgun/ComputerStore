@@ -20,6 +20,7 @@ namespace DAL.Repositories.Concretes
             return db.Computers.Find(computerId);
             /*
             Error	CS0122	'ComputerStoreContext.Computers' is inaccessible due to its protection level
+            public DbSet<Computer> Computers {  get; set; }
             */
         }
 

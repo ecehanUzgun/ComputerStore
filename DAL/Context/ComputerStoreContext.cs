@@ -11,15 +11,15 @@ namespace DAL.Context
         private readonly string connectionString = "server=localhost;database=ComputerStoreDB;Trusted_Connection=true;TrustServerCertificate=true";
 
         //Tablo
-        DbSet<Computer> Computers {  get; set; }
-        DbSet<Anakart> Anakartlar {  get; set; } 
-        DbSet<EkranKarti> EkranKartlari { get; set; }
-        DbSet<Islemci> Islemciler { get; set; }
-        DbSet<Klavye> Klavyeler {  get; set; }
-        DbSet<ComputerMonitor> ComputerMonitors { get; set; }
-        DbSet<Mouse> Mice {  get; set; }
-        DbSet<Ram> Rams { get; set; }
-        DbSet<SSD> SSDs { get; set; }
+        public DbSet<Computer> Computers {  get; set; }
+        public DbSet<Anakart> Anakartlar {  get; set; } 
+        public DbSet<EkranKarti> EkranKartlari { get; set; }
+        public DbSet<Islemci> Islemciler { get; set; }
+        public DbSet<Klavye> Klavyeler {  get; set; }
+        public DbSet<ComputerMonitor> ComputerMonitors { get; set; }
+        public DbSet<Mouse> Mice {  get; set; }
+        public DbSet<Ram> Rams { get; set; }
+        public DbSet<SSD> SSDs { get; set; }
 
         //OnConfiguring
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

@@ -4,7 +4,7 @@ namespace DAL.Builder.Abstracts
 {
     public abstract class BaseComputerBuilder
     {
-        protected Computer _computer; 
+        protected Computer _computer; //yalnızca bu sınıfın ve bu sınıfı miras alan diğer sınıfların erişimine açık.
         public Computer NewComputer
         {
             get { return _computer; }

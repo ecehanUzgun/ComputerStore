@@ -1,4 +1,8 @@
-﻿namespace ConsoleUI
+﻿using BLL.Builder.Concretes;
+using DAL.Entities;
+using BLL.Builder;
+
+namespace ConsoleUI
 {
     internal class Program
     {
@@ -22,7 +26,11 @@
                 Computer Builder
              */
 
+            //Kullanıcıdan Id bilgileri alınıp bilgisayar toplanacak.
+            ComputerBuilder computerBuilder = new ComputerBuilder();
+            
 
+            CreateComputer createComputer = new CreateComputer();
 
         }
     }

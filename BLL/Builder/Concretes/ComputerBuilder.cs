@@ -12,42 +12,42 @@ namespace BLL.Builder.Concretes
 
         public override void GetAnakartId(int anakartId)
         {
-            throw new NotImplementedException();
+            _computer.AnakartId = anakartId;
         }
 
         public override void GetComputerMonitorId(int computerMonitorId)
         {
-            throw new NotImplementedException();
+            _computer.MonitorId = computerMonitorId;
         }
 
         public override void GetEkranKartiId(int ekranKartiId)
         {
-            throw new NotImplementedException();
+            _computer.EkranKartiId = ekranKartiId;
         }
 
         public override void GetIslemciId(int islemciId)
         {
-            throw new NotImplementedException();
+            _computer.IslemciId = islemciId;
         }
 
         public override void GetKlavyeId(int klavyeId)
         {
-            throw new NotImplementedException();
+            _computer.KlavyeId = klavyeId;
         }
 
         public override void GetMouseId(int mouseId)
         {
-            throw new NotImplementedException();
+            _computer.MouseId = mouseId;
         }
 
         public override void GetRamId(int ramId)
         {
-            throw new NotImplementedException();
+            _computer.RamId = ramId;
         }
 
         public override void GetSSDId(int ssdId)
         {
-            throw new NotImplementedException();
+            _computer.SSDId = ssdId;
         }
     }
 }
